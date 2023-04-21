@@ -6,21 +6,21 @@ dnm = 0
 
 while True:
     try:
-        y = int(input("0 ile 100 arası bir sayı girin!\n"))
+        y = int(input("Please write number between 0 and 100!\n"))
 
     except ValueError:
-        print("Lütfen sadece sayı girin!")
+        print("Please only write a number!")
         continue
 
     if(x==y):
-        print("Bildiniz!\n")
+        print("Found it!\n")
         dnm=+ dnm+ 1
         break
     elif(x>y):
-        print("Yukarı!")
+        print("Up!")
         dnm=+ dnm+1
     elif(x<y):
-        print("Aşağı!")
+        print("Down!")
         dnm=+ dnm +1
 
 
